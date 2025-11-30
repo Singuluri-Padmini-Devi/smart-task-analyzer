@@ -552,16 +552,24 @@ The Git history follows a structured progression:
 5. Edge case handling (circular deps, validation)
 6. Polish (README, sample data, styling)
 
-## 👨‍💻 Author
+## Design Decisions
 
-**Technical Assessment Submission**  
-Software Development Intern Position  
-Duration: ~3.5 hours  
-Date: November 2025
+### In-Memory Processing vs Database
+This implementation processes tasks in-memory rather than persisting to a database.
 
----
+**Rationale:**
+- Assessment focuses on algorithm design and problem-solving
+- Stateless API design (RESTful principles)
+- Faster development and simpler deployment
+- Easy to extend to database persistence if needed
 
-## 📄 License
+### Advanced Algorithm
+The scoring algorithm exceeds basic requirements by implementing:
+- Multi-factor weighted scoring (4 configurable strategies)
+- Bounded overdue penalties (prevents extreme scores)
+- Logarithmic effort scaling (realistic quick-win calculations)
+- DFS-based circular dependency detection
+- Comprehensive edge case handling
 
-This is an assessment project and not intended for production use.
+See "Algorithm Design" section for detailed formulas.
 
