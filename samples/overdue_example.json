@@ -1,0 +1,35 @@
+[
+  {
+    "id": "t1",
+    "title": "OVERDUE: Fix production bug",
+    "due_date": "2025-11-20",
+    "estimated_hours": 2,
+    "importance": 9,
+    "dependencies": []
+  },
+  {
+    "id": "t2",
+    "title": "OVERDUE: Update expired SSL certificate",
+    "due_date": "2025-11-15",
+    "estimated_hours": 1,
+    "importance": 10,
+    "dependencies": []
+  },
+  {
+    "id": "t3",
+    "title": "Regular task",
+    "due_date": "2025-12-10",
+    "estimated_hours": 3,
+    "importance": 7,
+    "dependencies": []
+  },
+  {
+    "id": "t4",
+    "title": "Low priority but overdue",
+    "due_date": "2025-11-25",
+    "estimated_hours": 5,
+    "importance": 3,
+    "dependencies": []
+  }
+]
+

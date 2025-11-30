@@ -1,0 +1,35 @@
+[
+  {
+    "id": "t1",
+    "title": "Task A depends on B",
+    "due_date": "2025-12-05",
+    "estimated_hours": 2,
+    "importance": 7,
+    "dependencies": ["t2"]
+  },
+  {
+    "id": "t2",
+    "title": "Task B depends on C",
+    "due_date": "2025-12-06",
+    "estimated_hours": 3,
+    "importance": 6,
+    "dependencies": ["t3"]
+  },
+  {
+    "id": "t3",
+    "title": "Task C depends on A (creates cycle)",
+    "due_date": "2025-12-07",
+    "estimated_hours": 2,
+    "importance": 5,
+    "dependencies": ["t1"]
+  },
+  {
+    "id": "t4",
+    "title": "Independent task",
+    "due_date": "2025-12-01",
+    "estimated_hours": 1,
+    "importance": 8,
+    "dependencies": []
+  }
+]
+

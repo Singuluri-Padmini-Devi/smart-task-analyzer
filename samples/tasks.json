@@ -1,0 +1,67 @@
+[
+  {
+    "id": "t1",
+    "title": "Fix critical login bug",
+    "due_date": "2025-11-28",
+    "estimated_hours": 3,
+    "importance": 9,
+    "dependencies": []
+  },
+  {
+    "id": "t2",
+    "title": "Update documentation",
+    "due_date": "2025-12-10",
+    "estimated_hours": 2,
+    "importance": 5,
+    "dependencies": []
+  },
+  {
+    "id": "t3",
+    "title": "Implement new feature",
+    "due_date": "2025-12-05",
+    "estimated_hours": 8,
+    "importance": 7,
+    "dependencies": ["t1"]
+  },
+  {
+    "id": "t4",
+    "title": "Code review",
+    "due_date": "2025-12-01",
+    "estimated_hours": 1,
+    "importance": 6,
+    "dependencies": []
+  },
+  {
+    "id": "t5",
+    "title": "Deploy to production",
+    "due_date": "2025-12-08",
+    "estimated_hours": 2,
+    "importance": 8,
+    "dependencies": ["t1", "t3"]
+  },
+  {
+    "id": "t6",
+    "title": "Write unit tests",
+    "due_date": "2025-12-03",
+    "estimated_hours": 4,
+    "importance": 7,
+    "dependencies": ["t3"]
+  },
+  {
+    "id": "t7",
+    "title": "Performance optimization",
+    "due_date": "2025-12-15",
+    "estimated_hours": 6,
+    "importance": 6,
+    "dependencies": []
+  },
+  {
+    "id": "t8",
+    "title": "Security audit",
+    "due_date": "2025-11-25",
+    "estimated_hours": 5,
+    "importance": 10,
+    "dependencies": []
+  }
+]
+
