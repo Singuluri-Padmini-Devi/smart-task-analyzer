@@ -52,8 +52,13 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'smart_analyzer.wsgi.application'
 
-# Database (not needed for this assessment - we'll process in-memory)
-DATABASES = {}
+# Database (minimal config for testing - not used in production)
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': ':memory:',  # In-memory database for tests
+    }
+}
 
 # Internationalization
 LANGUAGE_CODE = 'en-us'

@@ -573,3 +573,23 @@ The scoring algorithm exceeds basic requirements by implementing:
 
 See "Algorithm Design" section for detailed formulas.
 
+## Running Tests
+
+This project includes comprehensive unit tests for the scoring algorithm.
+
+### Run All Tests
+\`\`\`bash
+cd backend
+python manage.py test tasks
+\`\`\`
+
+### Test Coverage
+- 41 test cases
+- 10 test classes
+- Unit + Integration testing
+- Edge case coverage
+
+All tests pass successfully! ✅
+
+See `TESTING.md` for detailed documentation.
+
